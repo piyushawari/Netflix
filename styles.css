@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" class="logo">
+            <div class="nav-links">
+                <span class="active">Home</span>
+                <span>TV Shows</span>
+                <span>Movies</span>
+            </div>
+        </div>
+        <div class="nav-right">
+            <span>🔍</span>
+            <div class="profile-square"></div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">THE CHRONICLES OF</p>
+            <h1 class="hero-title">ETERNA</h1>
+            <p class="hero-tagline">Their Destiny Awaits</p>
+            <div class="hero-btns">
+                <button class="btn-play">▶ Play</button>
+                <button class="btn-info">ⓘ More Info</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content-rows">
+        <h2 class="row-title">Continue Watching for Alex</h2>
+        <div class="posters">
+            <div class="card">Stranger Things</div>
+            <div class="card">The Crown</div>
+            <div class="card">Wednesday</div>
+            <div class="card">Squid Game</div>
+        </div>
+    </main>
+
+</body>
+</html>
